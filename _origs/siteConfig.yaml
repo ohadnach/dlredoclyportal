@@ -15,8 +15,6 @@ toc:
   enable: true
 oasDefinitions:
   petstore: ./openapi/petstore.yaml
-  dlapi: ./dlopenapi/dlapi.json
-  restapi: ./resources/rest_api/openapi.json
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
@@ -31,14 +29,10 @@ nav:
 
   - label: Training exercises
     page: developer-portal/index.md
-    
-  - label: Developers and support docs
-    icon: ./images/dl_icon.png
-    page: https://dataloop.ai/docs/welcome
 
-  - label: SDK and CLI docs
+  - label: External docs
     icon: ./images/dl_icon.png
-    href: https://sdk-docs.dataloop.ai/en/latest/index.html
+    href: https://redoc.ly/docs/developer-portal/introduction/
 
   - search: true
 
