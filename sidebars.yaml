@@ -1,25 +1,8 @@
-xxtraining:
+contents:
   - label: Get Started
-    page: tutorials/Installation.md
-  - label: Installation
-    page: tutorials/Installation.md
-  - page: tutorials/Installation.md
-  - group: Getting Started
-    expanded: false
-    pages:
-      - label: Register
-        page: developer-portal/setup.md
-      - label: Dataloop Overview
-        page: developer-portal/markdown.md
-      - label: Specifications
-        page: developer-portal/awesome/folders.md
-      - label: Platform Release Notes
-        page: developer-portal/mermaid.md
-      - separator: This is a separator
-      - label: SDK Release Notes
-        page: developer-portal/page-table-of-contents.md
+    page: tutorials/getting_started/sdk_overview/chapter.md
   - group: Tutorials
-    page: tutorials/index.md
+    page: tutorials/tutorials.mdx
     expanded: false
     pages:
       - label: Annotations image
@@ -41,13 +24,9 @@ xxtraining:
   - label: Onboarding
     page: onboarding/dev_onboarding.md
   - group: Resources
-    page: resources/index.md
+    page: resources/resources.mdx
     expanded: false
     pages:
-      - group: API
-        expanded: false
-        pages:
-          - page: dlopenapi/reference.page.yaml/*
       - group: REST API
         expanded: false
         pages:
@@ -60,3 +39,8 @@ xxtraining:
         expanded: false
         pages:
           - page: openapi/reference.page.yaml/*
+  - label: Glossary
+    page: tutorials/getting_started/sdk_overview/chapter.md
+  - label: Cheat Sheet
+    page: tutorials/getting_started/sdk_overview/chapter.md
+
